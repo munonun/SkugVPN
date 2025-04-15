@@ -1,0 +1,7 @@
+name = "skugvpn"
+type = "javascript"
+compatibility_date = "2025-04-15"
+
+[site]
+bucket = "./out"
+entry-point = "."
