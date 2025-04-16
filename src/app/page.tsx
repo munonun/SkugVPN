@@ -34,7 +34,7 @@ export default function HomePage() {
       <header className="bg-blue-900 text-white flex justify-between px-8 py-4 items-center fixed top-0 left-0 right-0 shadow z-10">
         <div className="flex items-center space-x-2">
           {/* <img src="/logo.svg" alt="SkugVPN Logo" className="h-8 w-8" /> */}
-          <span className="font-bold text-lg">SkugVPN</span>
+          <Link href="/" className="font-bold text-lg">SkugVPN</Link>
         </div>
         <nav className="space-x-6 hidden md:flex items-center">
           <Link href="/account/login" className="hover:underline">시작하기</Link>
@@ -63,7 +63,7 @@ export default function HomePage() {
                 당신의 온라인 활동은 상품이 아닙니다.<br />
                 프라이버시는 선택이 아닌, 기본권입니다.
               </p>
-              <Link href="/start" className="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition">
+              <Link href="/account/login" className="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition">
                 지금 시작하기
               </Link>
             </div>

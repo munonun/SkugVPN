@@ -34,10 +34,12 @@ export default function SignupPage() {
 
   return (
     <>
+    <title>SkugVPN 회원가입</title>
+
       {/* Hero Bar */}
       <header className="bg-blue-900 text-white flex justify-between px-8 py-4 items-center fixed top-0 left-0 right-0 shadow z-10">
         <div className="flex items-center space-x-2">
-          <span className="font-bold text-lg">SkugVPN</span>
+        <Link href="/" className="font-bold text-lg">SkugVPN</Link>
         </div>
         <nav className="space-x-6 hidden md:flex items-center">
           <Link href="/" className="hover:underline">홈</Link>
